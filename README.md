@@ -1,21 +1,7 @@
 # Laravel Mixを使った簡易Webサイト構築用の開発環境構築
 
-VS CodeのLive Serverが5500ポートで動作することを想定して作成いたしました。
+VS CodeのLive Serverで動作することを想定して作成いたしました。
 
-ポート番号やフォルダー修正時には`webpack.mix.js`を修正してください。
-
-```js
-mix.js('src/js/app.js', 'dist/js')
-.sass('src/sass/app.scss', 'dist/css')
-.browserSync({
-    files: [
-        "dist/**/*.*"
-    ],
-    proxy: {
-        target: 'http://127.0.0.1:5500/',
-    }
-});
-```
 
 ## フォルダー構造
 
