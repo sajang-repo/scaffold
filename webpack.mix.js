@@ -12,12 +12,4 @@ const mix = require('laravel-mix');
  */
 
 mix.js('src/js/app.js', 'dist/js')
-.sass('src/sass/app.scss', 'dist/css')
-.browserSync({
-    files: [
-        "dist/**/*.*"
-    ],
-    proxy: {
-        target: 'http://127.0.0.1:5500/',
-    }
-});
+.sass('src/sass/app.scss', 'dist/css');
