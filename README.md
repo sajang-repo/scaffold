@@ -2,7 +2,16 @@
 
 VS CodeのLive Serverで動作することを想定して作成いたしました。
 
+node 14.17.1で実行に問題ないことを確認しました。
 
+## 実行方法
+
+```sh
+git clone https://github.com/sajang-repo/scaffold.git <folder名>
+cd <folder名>
+npm install
+npm run watch
+```
 ## フォルダー構造
 
 ```
